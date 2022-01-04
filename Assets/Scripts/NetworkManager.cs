@@ -33,7 +33,7 @@ public class NetworkManager : MonoBehaviour
 
     public void Connect(string _room)
     {
-        instance._realtime.Connect(_room);
+       instance._realtime.Connect(_room);
     }
 
     // instanced realtime public var
